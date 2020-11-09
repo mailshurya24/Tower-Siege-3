@@ -6,7 +6,7 @@ class blockTypeB
         {
             density:1,
             restitution:0.6,
-            friction:1
+            friction:0.4
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
